@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "publisher": "KeenAsGreen",
+  "games": [
+    {
+      "id": "homm-olden-era",
+      "name": "Heroes of Might and Magic: Olden Era",
+      "version": "1.3.0",
+      "game_version": "v0.82.08",
+      "process": "HeroesOldenEra.exe",
+      "description": "Resource tools, unlimited movement and mana, map reveal, and an army editor for your single-player adventures.",
+      "cheats": [
+        "Always Can Afford",
+        "Resources Never Decrease",
+        "Unlimited Movement (your heroes)",
+        "Unlimited Mana (your heroes)",
+        "Reveal Map (one-time)",
+        "Army editor"
+      ],
+      "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/homm-olden-era-v1.3.0/HOMM-Olden-Era-Trainer.exe",
+      "sha256": "b3857dfb841770f98e4adc11199c710b7fa1cb4bf889c8838271361d45a3019d",
+      "size": 273408
+    }
+  ],
+  "signature": "aU21/y81gHaSEpTAW9HWqR85x15Na2dD22uGYXy6zhMzxEh4tl1JOjk+EnQl93MyU6NgW24uzCLyLQPI+jNUCQ=="
+}

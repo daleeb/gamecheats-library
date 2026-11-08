@@ -1,0 +1,84 @@
+{
+  "name": "HOMM: Olden Era Trainer by KeenAsGreen",
+  "version": "1.3.0",
+  "game_version": "v0.82.08",
+  "target": {
+    "process": "HeroesOldenEra.exe",
+    "module": "GameAssembly.dll"
+  },
+  "resolver": {
+    "kind": "homm_olden_era",
+    "typeinfo_rva": "0x56C1248",
+    "pe_timestamp": "0x6AEAFF8F",
+    "image_size": "0x6180000"
+  },
+  "army_editor": {
+    "heroes_pointer": ["@items"],
+    "filter_offset": "0x14",
+    "filter_value": 0,
+    "name_offset": "0x28",
+    "party_offset": "0x68",
+    "units_offset": "0x10",
+    "unit_sid_offset": "0x10",
+    "unit_stacks_offset": "0x18",
+    "max_slots": 7
+  },
+  "cheats": [
+    {
+      "id": "always_afford",
+      "name": "Always Can Afford",
+      "kind": "patch",
+      "module": "GameAssembly.dll",
+      "aob": "39 51 18 0F 9D C0 C3",
+      "replace": "B0 01 C3 90 90 90 90",
+      "hotkey": "F1",
+      "default_on": false
+    },
+    {
+      "id": "never_decrease",
+      "name": "Resources Never Decrease",
+      "kind": "patch",
+      "module": "GameAssembly.dll",
+      "aob": "39 51 18 7D 03 32 C0 C3 29 51 18 B0 01 C3",
+      "replace": "B0 01 C3 90 90 90 90 90 90 90 90 90 90 90",
+      "hotkey": "F2",
+      "default_on": false
+    },
+    {
+      "id": "unlimited_movement",
+      "name": "Unlimited Movement (your heroes)",
+      "kind": "freeze_list",
+      "pointer": ["@items"],
+      "filter_offset": "0x14",
+      "filter_value": 0,
+      "field_offset": "0x48",
+      "value_type": "i32",
+      "value": 999,
+      "hotkey": "F3",
+      "default_on": false
+    },
+    {
+      "id": "unlimited_mana",
+      "name": "Unlimited Mana (your heroes)",
+      "kind": "freeze_list",
+      "pointer": ["@items"],
+      "filter_offset": "0x14",
+      "filter_value": 0,
+      "field_offset": "0x54",
+      "value_type": "i32",
+      "value": 999,
+      "hotkey": "F4",
+      "default_on": false
+    },
+    {
+      "id": "reveal_map",
+      "name": "Reveal Map (one-time)",
+      "kind": "fill",
+      "pointer": ["@fog"],
+      "fill_value": 1,
+      "length": "runtime",
+      "hotkey": "F5",
+      "default_on": false
+    }
+  ]
+}
