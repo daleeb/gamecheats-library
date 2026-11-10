@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 3,
   "publisher": "KeenAsGreen",
   "games": [
     {
@@ -20,8 +20,43 @@
       ],
       "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/homm-olden-era-v1.3.0/HOMM-Olden-Era-Trainer.exe",
       "sha256": "b3857dfb841770f98e4adc11199c710b7fa1cb4bf889c8838271361d45a3019d",
-      "size": 273408
+      "size": 273408,
+      "cover": {
+        "url": "https://raw.githubusercontent.com/daleeb/gamecheats-library/main/covers/62352855dda9a25789948ca8c62d7c833213ac4bd94dacb8225ad246c4be1172.jpg",
+        "sha256": "62352855dda9a25789948ca8c62d7c833213ac4bd94dacb8225ad246c4be1172",
+        "size": 109451
+      }
+    },
+    {
+      "id": "desktop-wallet-heroes",
+      "name": "Desktop Wallet Heroes",
+      "version": "1.0.0",
+      "game_version": "1.11.1007",
+      "process": "Desktop Wallet Heroes.exe",
+      "description": "Desktop Wallet Heroes v1.11.1007 +12 Trainer by KeenAsGreen",
+      "cheats": [
+        "Health lock — refills living heroes; does not revive fallen heroes",
+        "Attack power multiplier",
+        "Attack speed multiplier",
+        "Movement speed multiplier",
+        "Ability cooldown reduction",
+        "Combat speed multiplier",
+        "Defense multiplier",
+        "Health regeneration multiplier",
+        "Critical hit chance override",
+        "Critical hit damage multiplier",
+        "Lifesteal override",
+        "Enemy health reduction"
+      ],
+      "sha256": "0e549beea9325509343d6ecbe438bc5a82a89833cf5ecd42b047b626b9b22702",
+      "size": 19971228,
+      "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/desktop-wallet-heroes-1.0/Desktop-Wallet-Heroes-Trainer.exe",
+      "cover": {
+        "url": "https://raw.githubusercontent.com/daleeb/gamecheats-library/main/covers/f537ecd701b44f5b8163d94dfa9df573dbc6832e340a345116c4dc6fb2dfa5c9.jpg",
+        "sha256": "f537ecd701b44f5b8163d94dfa9df573dbc6832e340a345116c4dc6fb2dfa5c9",
+        "size": 125381
+      }
     }
   ],
-  "signature": "aU21/y81gHaSEpTAW9HWqR85x15Na2dD22uGYXy6zhMzxEh4tl1JOjk+EnQl93MyU6NgW24uzCLyLQPI+jNUCQ=="
+  "signature": "0Rk6cCmPin5PCrnbmLsDrsyZHWS1LNJzy3Mj/0yubBMFhexIEiVR3YoSmqvuGxMZrK/SbmNcyRexLtHeii5PBw=="
 }
