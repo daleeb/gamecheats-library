@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 4,
+  "revision": 5,
   "publisher": "KeenAsGreen",
   "games": [
     {
@@ -76,7 +76,22 @@
       "sha256": "41d708802d4ec74d56dac651ff10857eb2435c71aa096dfa31a0a5f00266391c",
       "size": 20011265,
       "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/realm-grinder-v1.0.3/Realm-Grinder-Trainer.exe"
+    },
+    {
+      "id": "little-big-workshop",
+      "name": "Little Big Workshop",
+      "version": "1.0.0",
+      "game_version": "STEAM",
+      "process": "LittleBigWorkshop.exe",
+      "description": "Infinite money trainer",
+      "cheats": [
+        "Money amount – type any whole number of coins and hit Set",
+        "Infinite Money (F1) – locks your balance. Pressing Set while it's on changes the amount it locks to."
+      ],
+      "sha256": "ba078ee653f0c65e3be9da395316c41faa6f02cfd98b1bce7ca368e80a7590ea",
+      "size": 264704,
+      "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/little-big-workshop-trainer-v1.0.0/LittleBigWorkshopTrainer.exe"
     }
   ],
-  "signature": "qhfiGFuoJN8fl6yYq4VazCfpwdHUtdE68w6Rp14F4AZiH265VThYA5NJTA3qloJ61u6IIs5oaCqTHYQdVDVmCg=="
+  "signature": "OEanLqhII8xlXJ1vbHWfcaSCIzL90fuozzH/3BVBRl2awYxRC0nfWybJe1ewmhQVUMtfqF7B5Qfaz6OpMPUGDA=="
 }
