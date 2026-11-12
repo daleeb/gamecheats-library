@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 3,
+  "revision": 4,
   "publisher": "KeenAsGreen",
   "games": [
     {
@@ -56,7 +56,27 @@
         "sha256": "f537ecd701b44f5b8163d94dfa9df573dbc6832e340a345116c4dc6fb2dfa5c9",
         "size": 125381
       }
+    },
+    {
+      "id": "realm-grinder",
+      "name": "Realm Grinder",
+      "version": "1.0.3",
+      "game_version": "4.3.22",
+      "process": "realmgrinder.exe",
+      "description": "This trainer allows you to edit all currencies including paid premium currencies\n\nClose Realm Grinder before editing. The trainer updates the local save file and makes a timestamped backup before each change. You can restore backups from the Backups tab.",
+      "cheats": [
+        "Features:",
+        "- Set Coins",
+        "- Set Gems",
+        "- Set Mana",
+        "- Set Rubies",
+        "- Set Reincarnation (0–279)",
+        "- Set Ascension (0–4)"
+      ],
+      "sha256": "41d708802d4ec74d56dac651ff10857eb2435c71aa096dfa31a0a5f00266391c",
+      "size": 20011265,
+      "download_url": "https://github.com/daleeb/gamecheats-library/releases/download/realm-grinder-v1.0.3/Realm-Grinder-Trainer.exe"
     }
   ],
-  "signature": "0Rk6cCmPin5PCrnbmLsDrsyZHWS1LNJzy3Mj/0yubBMFhexIEiVR3YoSmqvuGxMZrK/SbmNcyRexLtHeii5PBw=="
+  "signature": "qhfiGFuoJN8fl6yYq4VazCfpwdHUtdE68w6Rp14F4AZiH265VThYA5NJTA3qloJ61u6IIs5oaCqTHYQdVDVmCg=="
 }
