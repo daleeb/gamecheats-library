@@ -1,0 +1,15 @@
+- Rob Run External added
+
+Update Notes:
+
+- Intel VT-x Hypervisor is now live, massively improving overall security and undetectability (AMD is not supported and will automatically fall back to standard Ring-0).
+
+- Fixed skeleton scanning, on lower-end PCs.
+
+- Fix AimBot (for those who were unable to use it before).
+
+- Added detailed step-by-step debug logging to the loader; errors now display directly on-screen instead of failing silently.
+
+- General performance and stability improvements.
+
+- Updated offsets for the latest game patch.
